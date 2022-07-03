@@ -30,11 +30,16 @@ body {
 	list-style: none;
 }
 /* base styles */
+.header-link-current {
+	color: var(--accent-txt-cl);
+}
 .btn:hover,
 .btn:focus {
-	background-color: var(--accent-txt-cl);
+	background-color: #188ce8;
 }
 .btn {
+	cursor: pointer;
+	background-color: var(--accent-txt-cl);
 }
 /* шапка */
 /* logo */
@@ -179,18 +184,18 @@ body {
 .adsress-link {
 	font-style: normal;
 	font-weight: 400;
-font-size: 14px;
-line-height: calc(24 / 14);
-letter-spacing: 0.03em;
-color: #FFFFFF;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: #ffffff;
 }
 .contacts-link {
 	font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: calc(24 / 14);
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -198,5 +203,41 @@ color: rgba(255, 255, 255, 0.6);
 }
 /* footer end */
 /* portfolio */
+/* filtr */
+.btn-filtr {
+	background-color: var(--light-bg-cl);
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-txt-cl);
+}
+.btn-filtr:hover,
+.btn-filtr:focus {
+	background-color: var(--accent-txt-cl);
+	color: var(--white-txt-cl);
+}
+/* filtr end */
+.portfolio-item {
+	cursor: pointer;
+}
+.portfolio-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(36 / 18);
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.portfolio-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.03em;
+	color: #757575;
+}
 
 /* portfolio end */
